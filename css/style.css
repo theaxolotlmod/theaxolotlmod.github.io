@@ -166,3 +166,6 @@ html, body {
       .tooltip:hover:after {
         opacity:1;
       }
+      nav {
+        position: sticky; top: 0;
+    }
