@@ -43,7 +43,7 @@ header{
     text-align: center;
     float: right;
     margin: none;
-    background: #0074D9;
+    background: #bcfa9350;
 }
      
 #menu li{
@@ -62,13 +62,12 @@ header{
 }
      
 #menu li a{
-         
     color: #FFF;
 }
      
 #menu li:hover a, #menu li span{
-    background: #FFF;
-    color: #0074D9;
+    background: #bcfa9350;
+    color: #FFF;
     border-left: 1px solid #0074D9;
     text-decoration: none;
 }
