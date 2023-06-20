@@ -114,7 +114,6 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     }
     .tooltip {
         position:relative; /* making the .tooltip span a container for the tooltip text */
