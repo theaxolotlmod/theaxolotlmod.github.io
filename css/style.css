@@ -11,12 +11,15 @@ html, body {
       overflow: hidden;
       width: 100%;
       background: #bcfa9350;
+      position: sticky; top: 0;
   }
    
   #top-header{
            
       text-align: center;
       height: 70px;
+      background: #bcfa9350;
+      position: sticky; top: 0;
   }
    
   /****************/   
@@ -45,6 +48,7 @@ html, body {
       height: 100%;
       margin: none;
       background: #bcfa9350;
+      position: sticky; top: 0;
   }
        
   #menu ul{
@@ -57,6 +61,7 @@ html, body {
       right: 0;
       left: 0;
       margin: 0 auto;
+      position: sticky; top: 0;
   }
        
   #menu li{
@@ -168,6 +173,9 @@ html, body {
       .tooltip:hover:after {
         opacity:1;
       }
-      nav {
-        position: sticky; top: 0;
+    #welcome {
+      float: left;
+    }
+    .title {
+      text-align: center;
     }
