@@ -1,62 +1,37 @@
-html, body{
-    height: 100%;
-}
-     
-body{
-    margin: 0px;
-    padding: 0px;
-    background: #FFFFFF;
-    font-family: 'Roboto';
-    font-size: 12pt;
-}
-         
-h1, h2, h3{
-    margin: 0;
-    padding: 0;
-    color: #404040;
-}
-     
-p, ol, ul{
-    margin-top: 0;
-}
- 
-p {
-    line-height: 180%;
-}
- 
-ol, ul{
-    padding: 0;
-    list-style: none;
-}
-     
-.container{   
-    /* Set width of container to
-        1200px and align center */
-    margin: 0px auto;
-    width: 1200px;
-}
+/*************************/
+/*    Styling  Header    */
+/*************************/
 header{
      
     overflow: hidden;
 }
+ 
 #top-header{
          
     text-align: center;
     height: 60px;
 }
+ 
+/****************/   
+/* Styling Logo */
+/****************/
 #logo{
     float: left;
     padding: none;
     margin: none;
-    height: 60px;
-    width: 30%;
+    height: 64px;
+    width: 64px;
 }
  
 #logo img{
-    width: 60%;
+    width: 64px;
     float: left;
     padding: 10px 0px;
 }   
+ 
+/***************************/
+/* Styling Navigation Menu */
+/***************************/
 #menu{
     float: right;
     width: 70%;
