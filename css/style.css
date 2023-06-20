@@ -50,7 +50,7 @@ html, body {
       float: center;
       background: #bcfa9350;
       padding: none;
-      position:absolute;
+      position: sticky;
       top: 0px;
       right: 0;
       left: 0;
