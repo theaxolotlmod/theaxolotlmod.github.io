@@ -73,38 +73,108 @@
   <input class="is-hidden" id="toggle-sidebar" type="checkbox">
   <nav aria-label="main navigation" class="is-dark navbar" role=
   "navigation">
-    <div class=navbar-brand><a href=https://theaxolotlmod.github.io class="navbar-item navbar-logo"><img alt="theaxolotlmod Logo" height=28 src=/images/logo.svg width=28> <span class=ml-2>theaxolotlmod</span> </a><label class=navbar-burger for=toggle-navbar aria-label=menu><span aria-hidden=true></span> <span aria-hidden=true></span> <span aria-hidden=true></span></label></div>
-    <div class=navbar-menu>
-      <div class=navbar-end>
+    <div class="navbar-brand">
+      <a href="/" class="navbar-item navbar-logo"><img alt=
+      "Quilt Logo" height="28" src="/images/logo.svg" width=
+      "28"> <span class="ml-2">theaxolotlmod</span></a> <label class=
+      "navbar-item has-tooltip-arrow has-tooltip-bottom px-2" for=
+      "low-contrast" data-tooltip="Toggle Low Contrast"><span id=
+      "theme-normal-contrast"></span> <span id=
+      "theme-low-contrast"></span></label> <label class=
+      "navbar-burger" for="toggle-navbar" aria-label="menu">
+      </label>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href=/about class="is-arrowless navbar-link">About</a>
-          <div class="is-boxed navbar-dropdown"><a href=/about class=navbar-item target=_self><span>About Me</span></a><a href=/about/faq class=navbar-item target=_self><span><strike>FAQ</strike></strong></span></a><a href=/about/newcomer-guide class=navbar-item target=_self><span><strike>Newcomers&#39; Guide</strike></span></a><a href=/about/security-notice class=navbar-item target=_self><span><strike>Security Notice</strike></span></a><a href=/about/teams class=navbar-item target=_self><span><strike>Team Listings</strike></span></a><a href=/about/timeline class=navbar-item target=_self><span><strike>Timeline</strike></span></a></div>
-        </div>
-        <a href=/blog/1 class=navbar-item target=_self><span><strike>Blog</strike></span></a>
+          <a href="/about" class=
+          "is-arrowless navbar-link is-active">About</a>
+          <div class="is-boxed navbar-dropdown">
+            <a href="/about" class="navbar-item" target=
+            "_self"><span>About Us</span></a> <a href=
+            "/about/faq" class="navbar-item" target=
+            "_self"><span>FAQ</span></a> <a href=
+            "/about/faq-devs" class="navbar-item" target=
+            "_self"><span>FAQ (Developers)</span></a> <a href=
+            "/about/newcomer-guide" class="navbar-item" target=
+            "_self"><span>Newcomers' Guide</span></a> <a href=
+            "/about/security-notice" class="navbar-item" target=
+            "_self"><span>Security Notice</span></a> <a href=
+            "/about/teams" class="navbar-item" target=
+            "_self"><span>Team Listings</span></a> <a href=
+            "/about/timeline" class="navbar-item" target=
+            "_self"><span>Timeline</span></a>
+          </div>
+        </div><a href="/en/blog/1" class="navbar-item" target=
+        "_self"><span>Blog</span></a>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a href=/community class="is-arrowless navbar-link"><strike>Community</strike></a>
-          <div class="is-boxed navbar-dropdown is-right"><a href=/community/code-of-conduct class=navbar-item target=_self><span><strike>Code of Conduct</strike></span></a><a href=/community class=navbar-item target=_self><span><strike>Community</strike></span></a><a href=/community/pluralkit class=navbar-item target=_self><span><strike>PluralKit</strike></span></a><a href=/community/rules class=navbar-item target=_self><span><strike>Rules</strike></span></a></div>
-        </div>
-        <a href=/install class=navbar-item target=_self><span><strike>Install</strike></span></a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a href=/usage class="is-arrowless navbar-link"><strike>Features</strike></a>
+          <a href="/en/community" class=
+          "is-arrowless navbar-link">Community</a>
           <div class="is-boxed navbar-dropdown is-right">
-            <a href=/usage/troubleshooting class=navbar-item target=_self><span><strike>Troubleshooting</strike></span>
+            <a href="/en/community/code-of-conduct" class=
+            "navbar-item" target="_self"><span>Code of
+            Conduct</span></a> <a href="/en/community" class=
+            "navbar-item" target="_self"><span>Community</span></a>
+            <a href="/en/community/join-us" class="navbar-item"
+            target="_self"><span>Join The Non-Profit</span></a>
+            <a href="/en/community/nsfw-policy" class="navbar-item"
+            target="_self"><span>NSFW Policy</span></a> <a href=
+            "/en/community/pluralkit" class="navbar-item" target=
+            "_self"><span>PluralKit</span></a> <a href=
+            "/en/community/rules" class="navbar-item" target=
+            "_self"><span>Rules</span></a>
+          </div>
+        </div><a href="/en/install" class="navbar-item" target=
+        "_self"><span>Install</span></a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a href="/en/usage" class=
+          "is-arrowless navbar-link">Usage</a>
+          <div class="is-boxed navbar-dropdown is-right">
+            <a href="/en/usage/troubleshooting" class="navbar-item"
+            target="_self"><span>Troubleshooting</span></a>
+            <a href="/en/usage" class="navbar-item" target=
+            "_self"><span>Usage Overview</span></a>
+            <div class="divider">
+              Development
+            </div><a href="https://modder.wiki.quiltmc.org" class=
+            "navbar-item" target="_self"><span>Developer
+            Wiki</span></a> <a href="https://maven.quiltmc.org"
+            class="navbar-item" target="_blank"><span>Maven
+            Repository</span></a> <a href=
+            "https://github.com/QuiltMC/quilt-template-mod" class=
+            "navbar-item" target="_blank"><span>Template
+            Mod</span></a>
+            <div class="divider">
+              External Links
+            </div><a href=
+            "https://lambdaurora.dev/tools/import_quilt.html"
+            class="navbar-item" target="_self"><span>Quilt Import
+            Utility</span></a>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="is-arrowless navbar-link"><span class=is-hidden-desktop>More Pages </span><span class="icon is-hidden-mobile is-hidden-tablet-only"><i class="fas fa-xl fa-ellipsis-v"></i></span></a>
+          <a class="is-arrowless navbar-link"><span class=
+          "is-hidden-desktop">More Pages</span></a>
           <div class="is-boxed navbar-dropdown is-right">
-            <div class="divider">More Pages</div>
-            <a href=/mc-patchnotes class=navbar-item target=_self><span class=icon><i class="fas fa-xl fa-notebook"></i> </span><span><strike>Patch Notes</strike></span></a><a href=/sponsors class=navbar-item target=_self><span class=icon><i class="fas fa-xl fa-dollar-sign"></i> </span><span><strike>Sponsors</strike></span></a><a href=/staff class=navbar-item target=_self><span class=icon><i class="fas fa-xl fa-clipboard-user"></i> </span><span><strike>Staff Resources</strike></span></a><a href=/legal class=navbar-item target=_self><span class=icon><i class="fas fa-xl fa-scale-balanced"></i> </span><span><strike>Legal</strike></span></a>
-            <div class=divider>External Links</div>
-            <a href=https://opencollective.com/quiltmc class=navbar-item target=_self><span class=icon><i class="fas fa-xl fa-circle-dollar-to-slot"></i> </span><span><strike>Donate</strike></span></a>
+            <a href="/en/mc-patchnotes" class="navbar-item" target=
+            "_self"><span>Patch Notes</span></a> <a href=
+            "/en/help-wanted" class="navbar-item" target="_self">
+            <span>Help Wanted</span></a> <a href="/en/sponsors"
+            class="navbar-item" target="_self">
+            <span>Sponsors</span></a> <a href="/en/staff" class=
+            "navbar-item" target="_self"> <span>Staff
+            Resources</span></a> <a href="/en/legal" class=
+            "navbar-item" target="_self"> <span>Legal</span></a>
+            <div class="divider">
+              External Links
+            </div><a href="https://opencollective.com/quiltmc"
+            class="navbar-item" target="_self">
+            <span>Donate</span></a>
           </div>
         </div>
       </div>
     </div>
   </nav>
-</div>
   <link href="/assets/404.1af613a0.css" rel="stylesheet">
   <link href="/assets/teams.aac1ad26.css" rel="stylesheet">
   <link href="/assets/mc-patchnotes.634a751f.css" rel="stylesheet">
