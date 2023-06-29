@@ -7,23 +7,19 @@ html, body {
   /*    Styling  Header    */
   /*************************/
   header{
-       
       overflow: hidden;
       width: 100%;
       background: #bcfa9350;
       position: sticky; 
       top: 0;
   }
-   
   #top-header{
-           
       text-align: center;
       height: 70px;
       background: #bcfa9350;
       position: sticky; 
       top: 0;
   }
-   
   /****************/   
   /* Styling Logo */
   /****************/
@@ -36,7 +32,6 @@ html, body {
       position: sticky; 
       top: 0;
   }
-   
   #logo img{
       width: 64px;
       float: left;
