@@ -1,0 +1,8 @@
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square150x150logo src="https://quiltmc.org/favicon/mstile-150x150.png"/>
+            <TileColor>#295135</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
