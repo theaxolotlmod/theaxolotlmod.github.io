@@ -665,8 +665,7 @@ span[data-tooltip]{
 }
 html,body,p,ol,ul,li,blockquote,figure,textarea,pre,hr,h1,h2,h3,h4,h5,h6{
     margin:0;
-    padding:0;
-    color:#105915
+    padding:0
 }
 h1,h2,h3,h4,h5,h6{
     font-size:100%;
@@ -3302,7 +3301,8 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     margin-bottom:.5rem!important
 }
 .ml-2{
-    margin-left:.5rem!important
+    margin-left:.5rem!important;
+    color: #105915
 }
 .mx-2{
     margin-left:.5rem!important;
