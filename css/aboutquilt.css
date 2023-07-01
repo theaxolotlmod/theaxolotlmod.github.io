@@ -1,0 +1,145 @@
+/** mc-patchnotes.634a751f.css **/
+
+code[class*=language-],pre[class*=language-]{
+    text-align:left;
+    white-space:pre;
+    word-spacing:normal;
+    word-break:normal;
+    word-wrap:normal;
+    color:#eee;
+    background:#2f2f2f;
+    font-family:IBM Plex Mono,monospace;
+    font-size:1em;
+    line-height:1.5em;
+    -moz-tab-size:4;
+    -o-tab-size:4;
+    tab-size:4;
+    -webkit-hyphens:none;
+    -moz-hyphens:none;
+    -ms-hyphens:none;
+    hyphens:none
+}
+code[class*=language-]::-moz-selection,pre[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-] ::-moz-selection{
+    background:#003c8f
+}
+code[class*=language-]::selection,pre[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-] ::selection{
+    background:#003c8f
+}
+:not(pre)>code[class*=language-]{
+    white-space:normal;
+    border-radius:.2em;
+    padding:.1em
+}
+pre[class*=language-]{
+    overflow:auto;
+    position:relative;
+    margin:.5em 0;
+    padding:1.25em 1em
+}
+.language-css>code{
+    color:#fd9170
+}
+.token.atrule{
+    color:#c792ea
+}
+.token.attr-name{
+    color:#ffcb6b
+}
+.token.attr-value{
+    color:#a5e844
+}
+.token.boolean{
+    color:#c792ea
+}
+.token.class{
+    color:#ffcb6b
+}
+.token.class-name{
+    color:#f2ff00
+}
+.token.comment{
+    color:#616161
+}
+.token.constant{
+    color:#c792ea
+}
+.token.deleted{
+    color:#f66
+}
+.token.entity{
+    color:#f66
+}
+.token.function{
+    color:#c792ea
+}
+.token.id{
+    color:#c792ea;
+    font-weight:700
+}
+.token.important{
+    color:#c792ea;
+    font-weight:700
+}
+.token.keyword{
+    color:#c792ea
+}
+.token.number{
+    color:#fd9170
+}
+.token.operator{
+    color:#89ddff
+}
+.token.property{
+    color:#80cbc4
+}
+.token.punctuation{
+    color:#89ddff
+}
+.token.string{
+    color:#a5e844
+}
+.token.tag{
+    color:#f66
+}
+.token.unit{
+    color:#fd9170
+}
+.token.url{
+    color:#f66
+}
+.token.variable{
+    color:#f66
+}
+/* prism-material-dark.css */
+
+.err-container:where(.astro-7ZTNNSLV){
+    margin:10px auto;
+    max-width:600px;
+    text-align:center;
+}
+.err-container:where(.astro-7ZTNNSLV) h1:where(.astro-7ZTNNSLV){
+    margin:30px 0;
+    font-size:4em;
+    line-height:1;
+    letter-spacing:-1px;
+}
+.err-container:where(.astro-7ZTNNSLV) .sad-pineapple:where(.astro-7ZTNNSLV){
+    width:1em;
+    vertical-align:top;
+}
+/** 404.1af613a0.css **/
+
+.z-60:where(.astro-LAWWUUCG){
+    z-index:60;
+}
+/** teams.aac1ad26.css **/
+
+#close-missing-versions:where(.astro-VH7U36FU):checked~#missing-versions-warning:where(.astro-VH7U36FU){
+    display:none!important;
+}
+/** mc-patchnotes.634a751f.css **/
+
+.footer:where(.astro-ZA33ROKN) .pineapple:where(.astro-ZA33ROKN){
+    margin-bottom:-5px;
+}
+/** index.1d9378f5.css **/
