@@ -2256,8 +2256,8 @@ a.dropdown-item.is-active,button.dropdown-item.is-active{
     color:#fff
 }
 .menu-list a.is-active{
-    background-color:#9722ff;
-    color:#fff
+    background-color:#bcfa93;
+    color:#105915;
 }
 .menu-list li ul{
     border-left:1px solid #dbdbdb;
