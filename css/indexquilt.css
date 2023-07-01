@@ -25,3 +25,7 @@
 }
 /** teams.aac1ad26.css **/
 
+#close-missing-versions:where(.astro-VH7U36FU):checked~#missing-versions-warning:where(.astro-VH7U36FU){
+    display:none!important;
+}
+/** mc-patchnotes.634a751f.css **/
