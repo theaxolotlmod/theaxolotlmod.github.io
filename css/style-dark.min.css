@@ -3796,7 +3796,8 @@ a.has-text-danger:hover,a.has-text-danger:focus{
 }
 .footer{
     background-color:#0e402d;
-    padding:3rem 1.5rem 6rem
+    padding:3rem 1.5rem 6rem;
+    color: #fff
 }
 :where(h1,h2,h3,h4,h5,h6) a .header-anchor-container .header-anchor{
     visibility:hidden
