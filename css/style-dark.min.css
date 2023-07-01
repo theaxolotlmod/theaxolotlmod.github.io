@@ -3459,11 +3459,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-dark .navbar-item,.hero.is-dark .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-dark a.navbar-item:hover,.hero.is-dark a.navbar-item.is-active,.hero.is-dark .navbar-link:hover,.hero.is-dark .navbar-link.is-active{
     background-color:#100c16;
-    color:#fff
+    color:#105915
 }
 .hero.is-dark .tabs a{
     color:#fff;
@@ -3509,11 +3509,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-primary .navbar-item,.hero.is-primary .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-primary a.navbar-item:hover,.hero.is-primary a.navbar-item.is-active,.hero.is-primary .navbar-link:hover,.hero.is-primary .navbar-link.is-active{
     background-color:#8b09ff;
-    color:#fff
+    color:#105915
 }
 .hero.is-primary .tabs a{
     color:#fff;
@@ -3559,11 +3559,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-link .navbar-item,.hero.is-link .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-link a.navbar-item:hover,.hero.is-link a.navbar-item.is-active,.hero.is-link .navbar-link:hover,.hero.is-link .navbar-link.is-active{
     background-color:#0e97fd;
-    color:#fff
+    color:#105915
 }
 .hero.is-link .tabs a{
     color:#fff;
@@ -3609,11 +3609,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-info .navbar-item,.hero.is-info .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-info a.navbar-item:hover,.hero.is-info a.navbar-item.is-active,.hero.is-info .navbar-link:hover,.hero.is-info .navbar-link.is-active{
     background-color:#182bf0;
-    color:#fff
+    color:#105915
 }
 .hero.is-info .tabs a{
     color:#fff;
@@ -3659,11 +3659,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-success .navbar-item,.hero.is-success .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-success a.navbar-item:hover,.hero.is-success a.navbar-item.is-active,.hero.is-success .navbar-link:hover,.hero.is-success .navbar-link.is-active{
     background-color:#3abb26;
-    color:#fff
+    color:#105915
 }
 .hero.is-success .tabs a{
     color:#fff;
@@ -3709,11 +3709,11 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     }
 }
 .hero.is-danger .navbar-item,.hero.is-danger .navbar-link{
-    color:rgba(255,255,255,.7)
+    color:rgba(16,89,21,.7)
 }
 .hero.is-danger a.navbar-item:hover,.hero.is-danger a.navbar-item.is-active,.hero.is-danger .navbar-link:hover,.hero.is-danger .navbar-link.is-active{
     background-color:#ff0909;
-    color:#fff
+    color:#105915
 }
 .hero.is-danger .tabs a{
     color:#fff;
