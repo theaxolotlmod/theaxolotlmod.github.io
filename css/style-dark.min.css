@@ -759,7 +759,7 @@ span{
     font-weight:inherit
 }
 strong{
-    color:#fff;
+    color:currentColor;
     font-weight:700
 }
 pre{
@@ -1576,7 +1576,8 @@ a.tag:hover{
     font-size:1.5rem
 }
 .title.is-5{
-    font-size:1.25rem
+    font-size:1.25rem;
+    color: #105915;
 }
 .title.is-6{
     font-size:1rem
@@ -1591,7 +1592,7 @@ a.tag:hover{
     line-height:1.25
 }
 .subtitle strong{
-    color:#fff;
+    color:currentColor;
     font-weight:600
 }
 .subtitle:not(.is-spaced)+.title{
@@ -1604,6 +1605,7 @@ a.tag:hover{
     font-size:1.5rem
 }
 .subtitle.is-5{
+    color: #105915;
     font-size:1.25rem
 }
 .subtitle.is-6{
@@ -3134,6 +3136,7 @@ a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover,a.navbar-item
         width:33.33333337%
     }
     .column.is-5{
+        color: #105915;
         flex:none;
         width:41.66666674%
     }
@@ -3193,8 +3196,10 @@ a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover,a.navbar-item
         width:33.33333337%
     }
     .tile.is-5{
+        color: #105915;
         flex:none;
-        width:41.66666674%
+        width:41.66666674%;
+        color: #105915;
     }
     .tile.is-6{
         flex:none;
@@ -3446,7 +3451,7 @@ a.has-text-danger:hover,a.has-text-danger:focus{
     color:rgba(255,255,255,.9)
 }
 .hero.is-dark .subtitle a:not(.button),.hero.is-dark .subtitle strong{
-    color:#fff
+    color:currentColor
 }
 @media screen and (max-width:1023px){
     .hero.is-dark .navbar-menu{
