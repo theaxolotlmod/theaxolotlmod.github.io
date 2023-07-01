@@ -143,3 +143,6 @@ pre[class*=language-]{
 }
 /* prism-material-dark.css */
 
+.footer.p {
+    color: #fff;
+}
