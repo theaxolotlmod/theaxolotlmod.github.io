@@ -3110,7 +3110,8 @@ a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover,a.navbar-item
     flex-basis:0;
     flex-grow:1;
     flex-shrink:1;
-    padding:.75rem
+    padding:.75rem;
+    color: #105915
 }
 @media screen and (min-width:769px),print{
     .column.is-narrow{
