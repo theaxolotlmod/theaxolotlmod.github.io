@@ -804,7 +804,7 @@ a.box:active{
     background-color:#bcfa93;
     border-color:#dbdbdb;
     border-width:1px;
-    color:#fff;
+    color:#105915;
     cursor:pointer;
     justify-content:center;
     padding-bottom:calc(.5em - 1px);
@@ -1473,7 +1473,7 @@ div.icon-text{
 }
 .table{
     background-color:#bcfa93;
-    color:#fff
+    color:#105915
 }
 .table.is-fullwidth{
     width:100%
@@ -1637,7 +1637,7 @@ a.tag:hover{
     background-color:#bcfa93;
     border-color:#dbdbdb;
     border-radius:4px;
-    color:#fff
+    color:#105915
 }
 .select select::-moz-placeholder,.textarea::-moz-placeholder,.input::-moz-placeholder{
     color:rgba(255,255,255,.3)
@@ -3910,7 +3910,7 @@ a.has-text-danger:hover,a.has-text-danger:focus{
 .hero .tabs.is-boxed li.is-active a{
     background-color:#bcfa93!important;
     border-color:transparent!important;
-    color:#fafafa!important
+    color:#105915!important
 }
 .has-background-patches{
     background-image:url(/images/temp.svg);
