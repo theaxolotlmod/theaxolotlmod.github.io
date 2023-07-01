@@ -665,7 +665,8 @@ span[data-tooltip]{
 }
 html,body,p,ol,ul,li,blockquote,figure,textarea,pre,hr,h1,h2,h3,h4,h5,h6{
     margin:0;
-    padding:0
+    padding:0;
+    color:#105915
 }
 h1,h2,h3,h4,h5,h6{
     font-size:100%;
