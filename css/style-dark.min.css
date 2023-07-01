@@ -4476,3 +4476,9 @@ label[for=low-contrast]{
 dark {
     color: #105915;
 }
+.navbar-dropdown {
+    color: #105915;
+}
+.navbar-dropdown.is-boxed {
+    color: #105915;
+}
