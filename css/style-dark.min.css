@@ -4120,7 +4120,8 @@ article.blog-post.with-divider:not(:last-child){
     flex-direction:column
 }
 .footer{
-    flex:1 1 auto
+    flex:1 1 auto;
+    color: #fff;
 }
 body{
     min-height:100vh
