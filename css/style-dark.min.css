@@ -4452,3 +4452,12 @@ label[for=low-contrast]{
 .tooltip:hover:after {
     opacity:1;  
 }
+.navbar-link {
+    color: #105915;
+}
+.navbar-item {
+    color: #105915;
+}
+.navbar-burger {
+    color: #105915;
+}
