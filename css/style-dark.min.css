@@ -2832,7 +2832,8 @@ a.navbar-item:focus,a.navbar-item:focus-within,a.navbar-item:hover,a.navbar-item
         min-width:100%;
         position:absolute;
         top:100%;
-        z-index:20
+        z-index:20;
+        color: #105915;
     }
     .navbar-dropdown .navbar-item{
         padding:.375rem 1rem;
@@ -3979,7 +3980,7 @@ img.emoji{
 }
 @media screen and (min-width:1024px){
     .navbar-item .navbar-dropdown{
-        border:1px solid rgba(250,250,250,.5)
+        border:1px solid rgba(16,89,21,.5)
     }
 }
 .navbar-item .icon{
